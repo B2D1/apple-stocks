@@ -1,0 +1,21 @@
+@import "../../styles/_colors.scss";
+
+.container {
+    margin: 20px 0;
+
+}
+
+.chart {
+    position: relative;
+
+    canvas {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    #canvasEvent {
+        z-index: 1;
+
+    }
+}

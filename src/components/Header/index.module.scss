@@ -1,0 +1,42 @@
+@import '../../styles/_colors.scss';
+
+.container {
+    display: flex;
+}
+
+.equity_name {
+    color: $b-text-color;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.equity_overview {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+
+    &_item div {
+        &>span:first-child {
+            color: $b-text-color;
+            font-weight: bold;
+        }
+
+        &>span:last-child {
+            color: $down-color;
+            margin-left: 10px;
+            font-size: small;
+        }
+    }
+
+    &_item>span {
+        color: $text-color;
+    }
+}
+
+.divider {
+    height: 60%;
+    width: 1px;
+    background: #4d4d4d;
+    margin: 0 20px;
+}

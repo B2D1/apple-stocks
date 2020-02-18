@@ -1,0 +1,22 @@
+@import 'styles/_colors.scss';
+
+.container {
+    display: flex;
+    min-width: 1200px;
+}
+
+.sideBar {
+    flex: 1;
+    min-width: 300px;
+}
+
+.main {
+    flex: 2;
+    background-color: $bg-color;
+}
+
+.main_container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}

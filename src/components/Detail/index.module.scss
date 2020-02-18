@@ -1,0 +1,28 @@
+@import '../../styles/_colors.scss';
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .item {
+        display: inline-flex;
+        width: calc((70% - 3px) / 4);
+        justify-content: space-between;
+
+        span {
+            color: $text-color;
+
+            &:last-child {
+                color: $b-text-color;
+            }
+        }
+    }
+}
+
+.divider {
+    height: 12px;
+    width: 1px;
+    background: #4d4d4d;
+    margin: 0 5%;
+}
